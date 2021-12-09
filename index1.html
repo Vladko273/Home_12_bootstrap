@@ -5,39 +5,45 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" href="css.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href=Fonts/fontawesome-free-6.0.0-beta3-web/css/fontawesome.css>
     <link rel="stylesheet" href=Fonts/fontawesome-free-6.0.0-beta3-web/css/solid.css>
     <title>Home12</title>
 </head>
 <body>
-    <div class="container-fluid" class="header">
-        <div class="logo">
+<nav class="navbar navbar-expand-lg navbar-dark header">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
             <i class="fas fa-chalkboard-teacher"></i>
-        </div>
-        <nav class="nav">
-            <a class="nav-link active" href="#">
-                Homes
-            </a>
-            <a class="nav-link" href="#">
-                Homework
-            </a>
-            <a class="nav-link" href="#">
-                Settings
-            </a>
-        </nav>
-        <div class="account">
-            <a href="#"><img src="icons/av_64.png" alt="account"></a>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Homes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Homework
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        Settings
+                    </a>
+                </li>
+            </ul>
+                <a href="#"><img src="icons/av_64.png" alt="account"></a>
         </div>
     </div>
-    <div class="container">
-
-    </div>
+</nav>
 
 
-
-
-    <script src="biblioteka/popper.min.js"></script>
-    <script src="/biblioteka/jquery-3.5.1.slim.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="biblioteka/popper.min.js"></script>
+<script src="/biblioteka/jquery-3.5.1.slim.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
-</html>.
+</html>
